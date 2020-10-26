@@ -1,0 +1,513 @@
+html, body, main, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html, body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+button{
+  border: 0;
+  outline: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+.header {
+  color: #212121;
+  background-color: #F9F6F1;
+}
+
+.header--wrapper{
+  max-width: 1126px;
+  margin: 0px auto;
+}
+
+nav {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.for--whom{
+  padding-top: 61px;
+  padding-right: 50px;
+}
+
+.for--whom ul{
+  display: flex;
+  width: 378px;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.for--whom ul li,
+.services ul li{
+  padding: 0px 35px 0 0;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+}
+
+.for--whom ul li a p img{
+  width: 5px;
+}
+
+.logo {
+  display: flex;
+  width: 201px;
+  justify-content: center;
+  padding: 0 45px 0 50px;
+}
+
+.logo img{
+  width: 40px;
+  height: 40px;
+  padding:61px 10px 0px 0px;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 61px 0px 0px 10px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 141px;
+  line-height: 29.26px;
+}
+
+.services{
+  padding-top: 61px;
+}
+
+.services ul{
+  display: flex;
+  padding-right: 50px;
+}
+
+
+.baskets ul{
+  display: flex;
+  justify-content: flex-end;
+  padding: 56px 50px 0px 0px;
+}
+
+.baskets li{
+  padding-right: 14px;
+}
+
+nav a{
+  color: inherit;
+}
+
+.discounts{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.winter{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 152px 0px 0px 0px;
+}
+
+.winter--what{
+  padding: 0px 0px 0px 0px;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+}
+
+.winter--ninety{
+  margin-top: 35px;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+}
+
+.winter button{
+  width: 240px;
+  height: 55px;
+  margin-top: 40px;
+  background: #D7B399;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0 !important;
+}
+
+.sneakers{
+  margin-top: 170px;
+  margin-bottom: 100px;
+  justify-content: flex-start;
+  background-image: url("img/section-1/shoes.png");
+  width: 556px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sneakers--before{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+
+}
+
+.sneakers--after{
+  color: #D84033;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding-top: 4px;
+}
+
+.delivery{
+  height: 235px;
+  background-color:#212121;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.delivery--offer{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+}
+
+.delivery--gift{
+  padding-top: 23px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.collections {
+  display: flex;
+}
+
+.men--collection{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: #F9F6F1;
+}
+
+.women--collection{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background: #F4F4F4;
+}
+
+.collection--desc{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 60px 15px;
+
+}
+
+h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+}
+
+.collections--categories{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 25px;
+}
+
+.collection--desc button{
+  width: 80px;
+  height: 30px;
+  margin-top: 40px;
+}
+
+.collection-img{
+  align-self: flex-end;
+  margin: 0px 15px;
+}
+
+.tshirts--wrapper{
+  width: 1110px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 277px 277px 277px 277px;
+  grid-template-rows: 236px 236px;
+}
+
+.tshirts--blue{
+  background-image: url("img/section-3/blue-shirt.png");
+  width: 277px;
+  height: 236px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.tshirts--pink{
+  background-image: url("img/section-3/pink-shirt.png");
+  width: 277px;
+  height: 236px;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.tshirt-name{
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  padding-bottom: 24px;
+  padding-left: 30px;
+  color: #000000;
+}
+
+.new--wrapper{
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.new--catalog{
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px;
+  grid-template-rows: 344px;
+}
+
+.dress--card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dress--card img{
+  margin-top: 103px;
+}
+
+.dress--title{
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+
+}
+
+.dress--price{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #D7B399;
+}
+
+.new--wrapper button{
+  margin-top: 128px;
+  margin-bottom: 150px;
+}
+
+
+.new--wrapper button,
+.discount--gifts button {
+  background: #D7B399;
+  width: 220px;
+  height: 55px;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0 !important;
+}
+
+.discount--gifts{
+  height: 180px;
+  background-color:#212121;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discount--offer{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-right: 30px;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 255px 185px;
+  grid-template-rows: 40px;
+  gap: 40px;
+  margin-left: 30px;
+
+}
+
+.email{
+  width: 255px;
+  height: 40px;
+
+}
+
+.subscribe{
+  width: 185px;
+  height: 40px;
+  background: #D7B399;
+}
+
+input{
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.footer--black{
+  border: 2px solid white;
+  background-color: #212121;
+  color: #FFFFFF;
+}
+
+.black--wrapper{
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0px;
+}
+
+.footer--logo {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.footer--logo img{
+  width: 21.35px;
+  height: 21.35px;
+}
+
+.logo--main{
+  margin-bottom: 20px;
+}
+
+.footer--title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.logo--desc{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.useful{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 670px;
+}
+
+
+h4{
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.useful--column ul li{
+  margin: 5px 0px;
+
+}
+
+.useful--column ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #CBCFD4;
+}
+
+.useful--column td{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #CBCFD4;
+}
+
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: auto;
+}
+
+.rights{
+  margin: 30px 0px;
+}
